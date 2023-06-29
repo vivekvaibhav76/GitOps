@@ -1,0 +1,8 @@
+apiVersion: k8s.humalecttest.io/v1alpha1
+kind: ApplicationGroup
+metadata:
+  name: my-application-group
+spec:
+  name: app-1
+  domain: example-1.com
+  replicas: 1
